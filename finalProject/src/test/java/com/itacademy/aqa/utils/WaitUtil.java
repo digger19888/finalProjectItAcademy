@@ -11,4 +11,9 @@ public class WaitUtil {
         WebDriverWait wait = new WebDriverWait(Browser.getDriver(), timeoutInSeconds);
         wait.until(ExpectedConditions.visibilityOf(webElement));
     }
+    public static void waitUntilElementNotVisible(WebElement webElement, long timeoutInSeconds) {
+
+        WebDriverWait wait = new WebDriverWait(Browser.getDriver(), timeoutInSeconds);
+        wait.until(ExpectedConditions.invisibilityOf(webElement));
+    }
 }

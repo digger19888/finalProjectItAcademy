@@ -43,7 +43,7 @@ public class Browser {
         }
     }
 
-    public static void takeSceenShot() {
+    public static void takeScreenShot() {
 
         File sceenShots = new File(Configuration.getSceenShotFolder());
 
@@ -55,7 +55,7 @@ public class Browser {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yyyy-h-mm-ss-SS--a");
         String formattedDate = simpleDateFormat.format(date);
 
-        String fileName = Configuration.getBrowserType() + "_" + formattedDate + "_sceenshot.png";
+        String fileName = Configuration.getBrowserType() + "_" + formattedDate + "_screenshot.png";
 
         byte[] srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
 

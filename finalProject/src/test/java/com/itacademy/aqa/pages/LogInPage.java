@@ -12,7 +12,6 @@ public class LogInPage extends BasePage {
 
     private Logger logger = Logger.getLogger(LogInPage.class);
 
-    private final static String CMS_BASE_URL = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin";
     public final static String CMS_URL = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/";
 
     @FindBy(xpath = "//*[@id='user_login']")
@@ -27,7 +26,7 @@ public class LogInPage extends BasePage {
     public WebElement rememberMeCheckbox;
 
     public LogInPage() {
-        driver.get(CMS_BASE_URL);
+        driver.get(CMS_URL);
         PageFactory.initElements(driver, this);
         logger.trace("Init elements of the page");
     }

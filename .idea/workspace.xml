@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="configure commit">
-      <change afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserType.java" afterDir="false" />
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add running tests depends on browser type commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MediaPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/utils/WaitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/utils/WaitUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/Browser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CmsTest.testAddNewUser">
     <configuration name="CmsTest.checkLogInToCms" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -83,8 +84,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CmsTest.testAddNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="testAddNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CmsTest.testAddNewUser" />
         <item itemvalue="TestNG.CmsTest.checkLogInToCms" />
       </list>
     </recent_temporary>
@@ -112,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717404677226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add running tests depends on browser type commit">
+      <created>1717406775494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717406775494</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="configure commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure commit" />
+    <MESSAGE value="add running tests depends on browser type commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add running tests depends on browser type commit" />
   </component>
 </project>

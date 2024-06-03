@@ -1,21 +1,55 @@
 package com.itacademy.aqa.pages;
 
+import com.itacademy.aqa.core.BasePage;
+import com.itacademy.aqa.utils.WaitUtil;
+import io.qameta.allure.Allure;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class UsersPage {
+import java.util.List;
+
+public class UsersPage extends BasePage {
+    private Logger logger = Logger.getLogger(LogInPage.class);
+    private static final String TABLE_USERNAME_ELEMENT = "//*[@class='username column-username has-row-actions column-primary']";
+    public static final String NEW_USER_NAME = "FAKE USER";
+    private static final String NEW_USER_EMAIL = "fakeuser@mail.ru";
     @FindBy(xpath = "//*[@class='page-title-action']")
-    public WebElement buttonAddNew;
+    public WebElement addNewButton;
+    @FindBy(xpath = "//input[@id='createusersub']")
+    public WebElement addNewUserButton;
     @FindBy(xpath = "//*[@class='wp-first-item current'][contains(text(), 'All Users')]")
     public WebElement tabAllUsers;
     @FindBy(xpath = "//a[@href='user-new.php']")
     public WebElement tabAddNew;
     @FindBy(xpath = "//a[normalize-space()='Profile']")
     public WebElement tabProfile;
-    private static final By POSTS_TABLE_USERNAME_ELEMENT = By.xpath("//*[@class='username column-username has-row-actions column-primary']");
-    private static final By POSTS_TABLE_NAME_ELEMENT = By.xpath("//*[@class='name column-name']");
-    private static final By POSTS_TABLE_EMAIL_ELEMENT = By.xpath("//*[@class='email column-email']");
-    private static final By POSTS_TABLE_ROLE_ELEMENT = By.xpath("role column-role']");
+    @FindBy(xpath = "//input[@id='user_login']")
+    public WebElement userNameField;
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement userEmailField;
+    @FindBy(xpath = "//*[@class='username column-username has-row-actions column-primary']")
+    public WebElement table;
 
+    public UsersPage() {
+        PageFactory.initElements(driver, this);
+        logger.trace("Init elements of the page");
+    }
+
+    public List<WebElement> getUsersList() {
+        logger.info("Opening page");
+        Allure.attachment("UsersPage", "Opening page");
+        addNewButton.click();
+        logger.error("element was not found");
+        userNameField.sendKeys(NEW_USER_NAME);
+        logger.error("element was not found");
+        userEmailField.sendKeys(NEW_USER_EMAIL);
+        logger.error("element was not found");
+        addNewUserButton.click();
+        logger.error("element was not found");
+        WaitUtil.waitUntilElementVisible(table,30);
+        return driver.findElements(By.xpath(TABLE_USERNAME_ELEMENT));
+    }
 }
