@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+import static com.itacademy.aqa.pages.UsersPage.EDIT_USER_EMAIL;
 import static com.itacademy.aqa.pages.UsersPage.NEW_USER_NAME;
 
 public class CmsTest extends BaseTest {
@@ -65,9 +66,19 @@ public class CmsTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testEditUser() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToUsersPage();
+        List<WebElement> users = usersPage.getEditUsersList();
+        int itemsListLength = users.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (users.get(i).getText().contains(EDIT_USER_EMAIL)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertTrue(result, "User with " + EDIT_USER_EMAIL + " does not exist");
         logger.info("Test case finished");
     }
 
