@@ -1,5 +1,7 @@
 package com.itacademy.aqa.configuration;
 
+import com.itacademy.aqa.webDriver.BrowserType;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -20,5 +22,17 @@ public class Configuration {
             }
         }
         return properties;
+    }
+
+    public static String getSceenShotFolder() {
+        return getProperties().getProperty("screenShotFolder");
+    }
+
+    public static BrowserType getBrowserType() {
+        return BrowserType.valueOf(getProperties().getProperty("browser"));
+    }
+
+    public static String getRemoteBrowserUrl() {
+        return getProperties().getProperty("remoteBrowserUrl");
     }
 }

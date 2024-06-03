@@ -1,10 +1,17 @@
 package com.itacademy.aqa.webDriver;
 
+import com.itacademy.aqa.configuration.Configuration;
 import com.itacademy.aqa.core.BasePage;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class Browser {
@@ -14,8 +21,7 @@ public class Browser {
     }
 
     public static void initDriver() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = BrowserFactory.createDriver(Configuration.getBrowserType());
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -37,4 +43,26 @@ public class Browser {
         }
     }
 
+    public static void takeSceenShot() {
+
+        File sceenShots = new File(Configuration.getSceenShotFolder());
+
+        if (!sceenShots.exists()) {
+            sceenShots.mkdirs();
+        }
+        Date date = new Date();
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yyyy-h-mm-ss-SS--a");
+        String formattedDate = simpleDateFormat.format(date);
+
+        String fileName = Configuration.getBrowserType() + "_" + formattedDate + "_sceenshot.png";
+
+        byte[] srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
+
+        try {
+            Files.write(new File(Configuration.getSceenShotFolder() + fileName).toPath(), srcFile, StandardOpenOption.CREATE);
+        } catch (IOException ex) {
+            System.out.println("Can't save a file + " + fileName);
+        }
+    }
 }
