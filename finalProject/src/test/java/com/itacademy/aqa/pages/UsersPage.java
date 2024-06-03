@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -43,6 +44,10 @@ public class UsersPage extends BasePage {
     public WebElement table;
     @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Users')]")
     public WebElement usersTab;
+    @FindBy(xpath = "//a[normalize-space()='FAKE USER']/../following-sibling::div/span[@class='delete']/a")
+    public WebElement deleteUserTab;
+    @FindBy(xpath = "//input[@id='submit']")
+    public WebElement confirmDeletionButton;
 
     public UsersPage() {
         PageFactory.initElements(driver, this);
@@ -80,5 +85,17 @@ public class UsersPage extends BasePage {
         usersTab.click();
         WaitUtil.waitUntilElementVisible(table,30);
         return driver.findElements(By.xpath(TABLE_EMAIL_ELEMENT));
+    }
+
+    public List<WebElement> getDeleteUsersList() {
+        logger.info("Opening page");
+        Allure.attachment("UsersPage", "Opening page");
+        Actions action = new Actions(driver);
+        action.moveToElement(userNameElement).perform();
+        deleteUserTab.click();
+        logger.error("element was not found");
+        confirmDeletionButton.click();
+        WaitUtil.waitUntilElementVisible(table,30);
+        return driver.findElements(By.xpath(TABLE_USERNAME_ELEMENT));
     }
 }

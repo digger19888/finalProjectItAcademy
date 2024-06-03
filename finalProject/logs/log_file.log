@@ -75,3 +75,45 @@
 2024-06-03 19:11:33 ERROR LogInPage:76 - element was not found
 2024-06-03 19:11:38 ERROR LogInPage:79 - element was not found
 2024-06-03 19:11:41 INFO  CmsTest:82 - Test case finished
+2024-06-03 20:10:33 TRACE LogInPage:25 - Init elements of the page
+2024-06-03 20:10:37 TRACE LogInPage:31 - Init elements of the page
+2024-06-03 20:10:37 TRACE LogInPage:54 - Init elements of the page
+2024-06-03 20:10:37 INFO  CmsTest:51 - Starting new test case
+2024-06-03 20:10:37 INFO  LogInPage:35 - Opening page
+2024-06-03 20:10:37 ERROR LogInPage:38 - element was not found
+2024-06-03 20:10:37 ERROR LogInPage:40 - element was not found
+2024-06-03 20:10:43 INFO  LogInPage:29 - Opening page
+2024-06-03 20:10:46 ERROR LogInPage:32 - element was not found
+2024-06-03 20:10:46 INFO  LogInPage:58 - Opening page
+2024-06-03 20:10:48 ERROR LogInPage:61 - element was not found
+2024-06-03 20:10:48 ERROR LogInPage:63 - element was not found
+2024-06-03 20:10:48 ERROR LogInPage:65 - element was not found
+2024-06-03 20:10:55 ERROR LogInPage:67 - element was not found
+2024-06-03 20:10:55 INFO  CmsTest:63 - Test case finished
+2024-06-03 20:11:28 TRACE LogInPage:25 - Init elements of the page
+2024-06-03 20:11:32 TRACE LogInPage:31 - Init elements of the page
+2024-06-03 20:11:32 TRACE LogInPage:54 - Init elements of the page
+2024-06-03 20:11:32 INFO  CmsTest:70 - Starting new test case
+2024-06-03 20:11:32 INFO  LogInPage:35 - Opening page
+2024-06-03 20:11:32 ERROR LogInPage:38 - element was not found
+2024-06-03 20:11:32 ERROR LogInPage:40 - element was not found
+2024-06-03 20:11:39 INFO  LogInPage:29 - Opening page
+2024-06-03 20:11:42 ERROR LogInPage:32 - element was not found
+2024-06-03 20:11:42 INFO  LogInPage:73 - Opening page
+2024-06-03 20:11:45 ERROR LogInPage:76 - element was not found
+2024-06-03 20:11:45 ERROR LogInPage:78 - element was not found
+2024-06-03 20:11:45 ERROR LogInPage:81 - element was not found
+2024-06-03 20:11:50 ERROR LogInPage:84 - element was not found
+2024-06-03 20:11:53 INFO  CmsTest:82 - Test case finished
+2024-06-03 20:12:12 TRACE LogInPage:25 - Init elements of the page
+2024-06-03 20:12:16 TRACE LogInPage:31 - Init elements of the page
+2024-06-03 20:12:16 TRACE LogInPage:54 - Init elements of the page
+2024-06-03 20:12:17 INFO  CmsTest:89 - Starting new test case
+2024-06-03 20:12:17 INFO  LogInPage:35 - Opening page
+2024-06-03 20:12:17 ERROR LogInPage:38 - element was not found
+2024-06-03 20:12:17 ERROR LogInPage:40 - element was not found
+2024-06-03 20:12:26 INFO  LogInPage:29 - Opening page
+2024-06-03 20:12:29 ERROR LogInPage:32 - element was not found
+2024-06-03 20:12:29 INFO  LogInPage:91 - Opening page
+2024-06-03 20:12:32 ERROR LogInPage:96 - element was not found
+2024-06-03 20:12:37 INFO  CmsTest:101 - Test case finished

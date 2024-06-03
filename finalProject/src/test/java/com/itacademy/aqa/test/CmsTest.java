@@ -59,7 +59,7 @@ public class CmsTest extends BaseTest {
                 break;
             }
         }
-        Assert.assertTrue(result, "User with " + NEW_USER_NAME + " does not exist");
+        Assert.assertTrue(result, "User with name: " + NEW_USER_NAME + " does not exist");
         logger.info("Test case finished");
     }
 
@@ -78,16 +78,26 @@ public class CmsTest extends BaseTest {
                 break;
             }
         }
-        Assert.assertTrue(result, "User with " + EDIT_USER_EMAIL + " does not exist");
+        Assert.assertTrue(result, "User with email: " + EDIT_USER_EMAIL + " does not exist");
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteUser() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToUsersPage();
+        List<WebElement> users = usersPage.getDeleteUsersList();
+        int itemsListLength = users.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (users.get(i).getText().contains(NEW_USER_NAME)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertFalse(result, "User with name: " + NEW_USER_NAME + " exists");
         logger.info("Test case finished");
     }
 
