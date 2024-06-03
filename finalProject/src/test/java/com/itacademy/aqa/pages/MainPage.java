@@ -9,7 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends BasePage {
     private Logger logger = Logger.getLogger(LogInPage.class);
-    @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Posts')]")
+//    @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Posts')]")
+//    public WebElement posts;
+    @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-post']")
     public WebElement posts;
     @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Media')]")
     public WebElement media;
@@ -30,6 +32,12 @@ public class MainPage extends BasePage {
         Allure.attachment("MainPage", "Opening page");
         users.click();
         logger.error("element was not found");
+    }
 
+    public void switchToPostsPage() {
+        logger.info("Opening page");
+        Allure.attachment("PostsPage", "Opening page");
+        posts.click();
+        logger.error("element was not found");
     }
 }
