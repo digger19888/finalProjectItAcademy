@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+import static com.itacademy.aqa.pages.PostsPage.EDIT_POST_TITLE;
 import static com.itacademy.aqa.pages.PostsPage.NEW_POST_TITLE;
 import static com.itacademy.aqa.pages.UsersPage.EDIT_USER_EMAIL;
 import static com.itacademy.aqa.pages.UsersPage.NEW_USER_NAME;
@@ -124,9 +125,19 @@ public class CmsTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testEditPost() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPostsPage();
+        List<WebElement> posts = postsPage.getEditPostsList();
+        int itemsListLength = posts.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (posts.get(i).getText().contains(EDIT_POST_TITLE)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertTrue(result, "Post with title: " + EDIT_POST_TITLE + " does not exist");
         logger.info("Test case finished");
     }
 

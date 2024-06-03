@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation delete user test">
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation add post test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/logs/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/logs/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CmsTest.testAddNewPost">
+  <component name="RunManager" selected="TestNG.CmsTest.testEditPost">
     <configuration name="CmsTest.checkLogIntoCmsWithAdminCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -101,24 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsTest.testAddNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="finalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testAddNewUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CmsTest.testDeleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -130,6 +109,24 @@
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
       <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsTest.testEditPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="testEditPost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CmsTest.testEditPost" />
         <item itemvalue="TestNG.CmsTest.testAddNewPost" />
         <item itemvalue="TestNG.CmsTest.checkLogIntoCmsWithAdminCredentials" />
         <item itemvalue="TestNG.CmsTest.testDeleteUser" />
         <item itemvalue="TestNG.CmsTest.testEditUser" />
-        <item itemvalue="TestNG.CmsTest.testAddNewUser" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717434803107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add implementation add post test">
+      <created>1717438703936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438703936</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +241,7 @@
     <MESSAGE value="add test cases&#10;add implementation add new user" />
     <MESSAGE value="add implementation edit user" />
     <MESSAGE value="add implementation delete user test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation delete user test" />
+    <MESSAGE value="add implementation add post test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add implementation add post test" />
   </component>
 </project>

@@ -14,13 +14,18 @@ import java.util.List;
 public class PostsPage extends BasePage {
     public static final String NEW_POST_TITLE = "FAKE POST";
     private static final String POSTS_TABLE_TITLE_ELEMENT = "//*[@class='row-title']";
+    public static final String EDIT_POST_TITLE = "EDIT FAKE POST";
     private Logger logger = Logger.getLogger(LogInPage.class);
     @FindBy(xpath = "//*[@class='page-title-action']")
     public WebElement addNewButton;
     @FindBy(xpath = "//button[normalize-space()='Publish']")
     public WebElement publishButton;
+    @FindBy(xpath = "//button[normalize-space()='Update']")
+    public WebElement updateButton;
     @FindBy(xpath = "//a[@aria-label='View Posts']")
     public WebElement viewPostsButton;
+    @FindBy(xpath = "//a[@aria-label='“FAKE POST” (Edit)']")
+    public WebElement editPostsButton;
     @FindBy(name = "editor-canvas")
     public WebElement frame;
     @FindBy(xpath = "//h1[@aria-label= 'Add title']")
@@ -54,6 +59,24 @@ public class PostsPage extends BasePage {
         driver.switchTo().defaultContent();
         publishButton.click();
         WaitUtil.waitUntilElementVisible(informationPopup,30);
+        viewPostsButton.click();
+        logger.error("element was not found");
+        WaitUtil.waitUntilElementVisible(table,30);
+        return driver.findElements(By.xpath(POSTS_TABLE_TITLE_ELEMENT));
+    }
+
+    public List<WebElement> getEditPostsList() {
+        logger.info("Opening page");
+        Allure.attachment("PostsPage", "Opening page");
+        editPostsButton.click();
+        driver.switchTo().frame(frame);
+        addTitleField.click();
+        addTitleField.clear();
+        addTitleField.sendKeys(EDIT_POST_TITLE);
+        logger.error("element was not found");
+        driver.switchTo().defaultContent();
+        updateButton.click();
+        WaitUtil.waitUntilElementVisible(informationPopup, 30);
         viewPostsButton.click();
         logger.error("element was not found");
         WaitUtil.waitUntilElementVisible(table,30);
