@@ -1,0 +1,6 @@
+2024-06-03 11:50:00 INFO  CmsTest:16 - Starting new test case
+2024-06-03 11:50:03 TRACE LogInPage:32 - Init elements of the page
+2024-06-03 11:50:03 INFO  LogInPage:36 - Opening page
+2024-06-03 11:50:03 ERROR LogInPage:39 - element was not found
+2024-06-03 11:50:03 ERROR LogInPage:41 - element was not found
+2024-06-03 11:50:09 INFO  CmsTest:20 - Test case finished
