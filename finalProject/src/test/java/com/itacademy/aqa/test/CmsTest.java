@@ -13,8 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-import static com.itacademy.aqa.pages.PostsPage.EDIT_POST_TITLE;
-import static com.itacademy.aqa.pages.PostsPage.NEW_POST_TITLE;
+import static com.itacademy.aqa.pages.PostsPage.*;
 import static com.itacademy.aqa.pages.UsersPage.EDIT_USER_EMAIL;
 import static com.itacademy.aqa.pages.UsersPage.NEW_USER_NAME;
 
@@ -144,9 +143,20 @@ public class CmsTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewComment() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPostsPage();
+        postsPage.addNewComment();
+        List<WebElement> comments = commentsPage.getCommentsList();
+        int itemsListLength = comments.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (comments.get(i).getText().contains(FAKE_COMMENT)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertTrue(result, "Post with comment: " + FAKE_COMMENT + " does not exist");
         logger.info("Test case finished");
     }
 

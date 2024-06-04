@@ -5,7 +5,9 @@ import com.itacademy.aqa.utils.WaitUtil;
 import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -15,6 +17,7 @@ public class PostsPage extends BasePage {
     public static final String NEW_POST_TITLE = "FAKE POST";
     private static final String POSTS_TABLE_TITLE_ELEMENT = "//*[@class='row-title']";
     public static final String EDIT_POST_TITLE = "EDIT FAKE POST";
+    public static final String FAKE_COMMENT = "FAKE COMMENT";
     private Logger logger = Logger.getLogger(LogInPage.class);
     @FindBy(xpath = "//*[@class='page-title-action']")
     public WebElement addNewButton;
@@ -32,6 +35,18 @@ public class PostsPage extends BasePage {
     public WebElement addTitleField;
     @FindBy(xpath = "//div[@class='components-snackbar__content']")
     public WebElement informationPopup;
+    @FindBy(xpath = "//a[@aria-label='“EDIT FAKE POST” (Edit)']")
+    public WebElement editUserElement;
+    @FindBy(xpath = "//a[@aria-label='View “EDIT FAKE POST”']")
+    public WebElement viewEditUserButton;
+    @FindBy(xpath = "//textarea[@id='comment']")
+    public WebElement commentField;
+    @FindBy(xpath = "//input[@id='submit']")
+    public WebElement postCommentButton;
+    @FindBy(xpath = "//a[@class='ab-item'][normalize-space()='WordPress on Azure']")
+    public WebElement wordpressOnAzureMenu;
+    @FindBy(xpath = "//a[normalize-space()='Dashboard']")
+    public WebElement dashboard;
     @FindBy(xpath = "//*[@class='row-title']")
     public WebElement table;
     @FindBy(xpath = "//a[@class='wp-first-item current']")
@@ -58,10 +73,10 @@ public class PostsPage extends BasePage {
         logger.error("element was not found");
         driver.switchTo().defaultContent();
         publishButton.click();
-        WaitUtil.waitUntilElementVisible(informationPopup,30);
+        WaitUtil.waitUntilElementVisible(informationPopup, 30);
         viewPostsButton.click();
         logger.error("element was not found");
-        WaitUtil.waitUntilElementVisible(table,30);
+        WaitUtil.waitUntilElementVisible(table, 30);
         return driver.findElements(By.xpath(POSTS_TABLE_TITLE_ELEMENT));
     }
 
@@ -79,8 +94,26 @@ public class PostsPage extends BasePage {
         WaitUtil.waitUntilElementVisible(informationPopup, 30);
         viewPostsButton.click();
         logger.error("element was not found");
-        WaitUtil.waitUntilElementVisible(table,30);
+        WaitUtil.waitUntilElementVisible(table, 30);
         return driver.findElements(By.xpath(POSTS_TABLE_TITLE_ELEMENT));
     }
 
+    public void addNewComment() {
+        logger.info("Opening page");
+        Allure.attachment("PostsPage", "Opening page");
+        Actions action = new Actions(driver);
+        action.moveToElement(editUserElement).perform();
+        viewEditUserButton.click();
+        logger.error("element was not found");
+        commentField.sendKeys(Keys.PAGE_DOWN);
+        logger.error("element was not found");
+        commentField.sendKeys(FAKE_COMMENT);
+        logger.error("element was not found");
+        postCommentButton.click();
+        logger.error("element was not found");
+        Actions menuHover = new Actions(driver);
+        menuHover.moveToElement(wordpressOnAzureMenu).perform();
+        dashboard.click();
+        logger.error("element was not found");
+    }
 }
