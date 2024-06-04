@@ -6,6 +6,7 @@ import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -20,6 +21,10 @@ public class CommentsPage extends BasePage {
     public WebElement table;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-comments']")
     public WebElement comments;
+    @FindBy(xpath = "//p[normalize-space()='FAKE COMMENT']")
+    public WebElement commentElement;
+    @FindBy(xpath = "//p[normalize-space()='FAKE COMMENT']/../div/span[@class='trash']/a")
+    public WebElement commentTrashButton;
 
     public CommentsPage() {
         PageFactory.initElements(driver, this);
@@ -34,5 +39,14 @@ public class CommentsPage extends BasePage {
         return driver.findElements(By.xpath(COMMENTS_ELEMENT));
     }
 
-
+    public List<WebElement> getDeletedCommentsList() {
+        logger.info("Opening page");
+        Allure.attachment("CommentsPage", "Opening page");
+        Actions menuHover = new Actions(driver);
+        menuHover.moveToElement(commentElement).perform();
+        commentTrashButton.click();
+        logger.error("element was not found");
+        WaitUtil.waitUntilElementNotVisible(commentElement, 30);
+        return driver.findElements(By.xpath(COMMENTS_ELEMENT));
+    }
 }

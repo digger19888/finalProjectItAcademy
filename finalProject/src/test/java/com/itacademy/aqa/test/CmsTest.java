@@ -156,16 +156,26 @@ public class CmsTest extends BaseTest {
                 break;
             }
         }
-        Assert.assertTrue(result, "Post with comment: " + FAKE_COMMENT + " does not exist");
+        Assert.assertTrue(result, "Comment with name: " + FAKE_COMMENT + " does not exist");
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteComment() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToCommentsPage();
+        List<WebElement> comments = commentsPage.getDeletedCommentsList();
+        int itemsListLength = comments.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (comments.get(i).getText().contains(FAKE_COMMENT)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertFalse(result, "Comment with name: " + FAKE_COMMENT + " exists");
         logger.info("Test case finished");
     }
 
