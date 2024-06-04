@@ -156,7 +156,7 @@ public class CmsTest extends BaseTest {
                 break;
             }
         }
-        Assert.assertTrue(result, "Comment with name: " + FAKE_COMMENT + " does not exist");
+        Assert.assertTrue(result, "Comment with text: " + FAKE_COMMENT + " does not exist");
         logger.info("Test case finished");
     }
 
@@ -175,16 +175,26 @@ public class CmsTest extends BaseTest {
                 break;
             }
         }
-        Assert.assertFalse(result, "Comment with name: " + FAKE_COMMENT + " exists");
+        Assert.assertFalse(result, "Comment with text: " + FAKE_COMMENT + " exists");
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testDeletePost() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPostsPage();
+        List<WebElement> posts = postsPage.getDeletePostList();
+        int itemsListLength = posts.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (posts.get(i).getText().contains(EDIT_POST_TITLE)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertFalse(result, "Post with title: " + EDIT_POST_TITLE + " exists");
         logger.info("Test case finished");
     }
 

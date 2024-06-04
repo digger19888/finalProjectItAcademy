@@ -49,6 +49,10 @@ public class PostsPage extends BasePage {
     public WebElement dashboard;
     @FindBy(xpath = "//*[@class='row-title']")
     public WebElement table;
+    @FindBy(xpath = "//a[@aria-label='Move “EDIT FAKE POST” to the Trash']")
+    public WebElement trashPostButton;
+    @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-post']")
+    public WebElement posts;
     @FindBy(xpath = "//a[@class='wp-first-item current']")
     public WebElement tabAllPosts;
     @FindBy(xpath = "//a[@href='post-new.php']")
@@ -115,5 +119,20 @@ public class PostsPage extends BasePage {
         menuHover.moveToElement(wordpressOnAzureMenu).perform();
         dashboard.click();
         logger.error("element was not found");
+    }
+
+    public List<WebElement> getDeletePostList() {
+        Actions action = new Actions(driver);
+        action.moveToElement(editUserElement).perform();
+        trashPostButton.click();
+        logger.error("element was not found");
+        Actions menuHover = new Actions(driver);
+        menuHover.moveToElement(wordpressOnAzureMenu).perform();
+        dashboard.click();
+        logger.error("element was not found");
+        posts.click();
+        logger.error("element was not found");
+        WaitUtil.waitUntilElementVisible(table, 30);
+        return driver.findElements(By.xpath(POSTS_TABLE_TITLE_ELEMENT));
     }
 }

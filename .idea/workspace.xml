@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation add comment test">
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation delete comment test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/logs/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/logs/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/CommentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/CommentsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,25 +62,7 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CmsTest.testDeleteComment">
-    <configuration name="CmsTest.checkLogIntoCmsWithAdminCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="finalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="checkLogIntoCmsWithAdminCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CmsTest.testDeletePost">
     <configuration name="CmsTest.testAddNewComment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -137,6 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CmsTest.testDeletePost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="testDeletePost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CmsTest.testEditPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CmsTest.testDeleteComment" />
-        <item itemvalue="TestNG.CmsTest.testAddNewComment" />
+        <item itemvalue="TestNG.CmsTest.testDeletePost" />
         <item itemvalue="TestNG.CmsTest.testEditPost" />
         <item itemvalue="TestNG.CmsTest.testAddNewPost" />
-        <item itemvalue="TestNG.CmsTest.checkLogIntoCmsWithAdminCredentials" />
+        <item itemvalue="TestNG.CmsTest.testDeleteComment" />
+        <item itemvalue="TestNG.CmsTest.testAddNewComment" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717502877436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add implementation delete comment test">
+      <created>1717505821206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717505821206</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +266,7 @@
     <MESSAGE value="add implementation add post test" />
     <MESSAGE value="add implementation edit post test" />
     <MESSAGE value="add implementation add comment test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation add comment test" />
+    <MESSAGE value="add implementation delete comment test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add implementation delete comment test" />
   </component>
 </project>
