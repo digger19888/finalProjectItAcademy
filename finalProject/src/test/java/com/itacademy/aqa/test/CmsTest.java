@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+import static com.itacademy.aqa.pages.PagesPage.EDIT_PAGE_TITLE;
+import static com.itacademy.aqa.pages.PagesPage.NEW_PAGE_TITLE;
 import static com.itacademy.aqa.pages.PostsPage.*;
 import static com.itacademy.aqa.pages.UsersPage.EDIT_USER_EMAIL;
 import static com.itacademy.aqa.pages.UsersPage.NEW_USER_NAME;
@@ -201,27 +203,57 @@ public class CmsTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewPage() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPagesPage();
+        List<WebElement> pages = pagesPage.getPagesList();
+        int itemsListLength = pages.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (pages.get(i).getText().contains(NEW_PAGE_TITLE)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertTrue(result, "Page with title: " + NEW_PAGE_TITLE + " does not exist");
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testEditPage() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPagesPage();
+        List<WebElement> pages = pagesPage.getEditPagesList();
+        int itemsListLength = pages.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (pages.get(i).getText().contains(EDIT_PAGE_TITLE)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertTrue(result, "Post with title: " + EDIT_PAGE_TITLE + " does not exist");
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testDeletePage() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToPagesPage();
+        List<WebElement> pages = pagesPage.getDeletePagesList();
+        int itemsListLength = pages.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (pages.get(i).getText().contains(EDIT_PAGE_TITLE)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertFalse(result, "Page with title: " + EDIT_PAGE_TITLE + " exists");
         logger.info("Test case finished");
     }
 

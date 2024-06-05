@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation delete comment test">
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation delete post test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PostsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PagesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/PagesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +64,8 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CmsTest.testDeletePost">
-    <configuration name="CmsTest.testAddNewComment" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CmsTest.testDeletePage">
+    <configuration name="CmsTest.testAddNewPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +75,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testAddNewComment" />
+      <option name="METHOD_NAME" value="testAddNewPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsTest.testAddNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CmsTest.testDeletePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
         <pattern>
@@ -91,25 +93,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testAddNewPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CmsTest.testDeleteComment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="finalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testDeleteComment" />
+      <option name="METHOD_NAME" value="testDeletePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,6 +112,24 @@
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
       <option name="METHOD_NAME" value="testDeletePost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsTest.testEditPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="testEditPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CmsTest.testDeletePage" />
+        <item itemvalue="TestNG.CmsTest.testEditPage" />
+        <item itemvalue="TestNG.CmsTest.testAddNewPage" />
         <item itemvalue="TestNG.CmsTest.testDeletePost" />
         <item itemvalue="TestNG.CmsTest.testEditPost" />
-        <item itemvalue="TestNG.CmsTest.testAddNewPost" />
-        <item itemvalue="TestNG.CmsTest.testDeleteComment" />
-        <item itemvalue="TestNG.CmsTest.testAddNewComment" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717505821206</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add implementation delete post test">
+      <created>1717512900093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717512900093</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +276,7 @@
     <MESSAGE value="add implementation edit post test" />
     <MESSAGE value="add implementation add comment test" />
     <MESSAGE value="add implementation delete comment test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation delete comment test" />
+    <MESSAGE value="add implementation delete post test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add implementation delete post test" />
   </component>
 </project>

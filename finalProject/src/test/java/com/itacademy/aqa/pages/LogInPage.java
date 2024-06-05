@@ -9,10 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LogInPage extends BasePage {
-
-    private Logger logger = Logger.getLogger(LogInPage.class);
-
     public final static String CMS_URL = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/";
+    private Logger logger = Logger.getLogger(LogInPage.class);
 
     @FindBy(xpath = "//*[@id='user_login']")
     public WebElement login;
