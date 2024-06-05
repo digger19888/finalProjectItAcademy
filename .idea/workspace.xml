@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation add, edit, delete page test">
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation add, delete user with subscriber role test">
+      <change afterPath="$PROJECT_DIR$/finalProject/src/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalProject/src/smoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/logs/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/logs/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717572613291</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add implementation add, delete user with subscriber role test">
+      <created>1717577562850</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717577562850</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +292,7 @@
     <MESSAGE value="add implementation delete comment test" />
     <MESSAGE value="add implementation delete post test" />
     <MESSAGE value="add implementation add, edit, delete page test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation add, edit, delete page test" />
+    <MESSAGE value="add implementation add, delete user with subscriber role test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add implementation add, delete user with subscriber role test" />
   </component>
 </project>

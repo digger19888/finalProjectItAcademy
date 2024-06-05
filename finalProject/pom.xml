@@ -16,6 +16,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <allure.version>2.24.0</allure.version>
         <aspectj.version>1.9.20.1</aspectj.version>
+        <suit>regression.xml</suit>
     </properties>
 
     <dependencyManagement>
@@ -77,12 +78,6 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -96,6 +91,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
                 <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/smoke.xml</suiteXmlFile>
+                        <suiteXmlFile>src/${suit}</suiteXmlFile>
+                    </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>

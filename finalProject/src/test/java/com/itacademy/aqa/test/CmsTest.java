@@ -37,7 +37,7 @@ public class CmsTest extends BaseTest {
         pagesPage = new PagesPage();
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     public void checkLogIntoCmsWithAdminCredentials() {
         logger.info("Starting new test case");
@@ -46,7 +46,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewUser() {
         boolean result = false;
@@ -65,7 +65,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 2)
     @Severity(SeverityLevel.CRITICAL)
     public void testEditUser() {
         boolean result = false;
@@ -84,7 +84,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 5)
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteUser() {
         boolean result = false;
@@ -103,7 +103,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewPost() {
         boolean result = false;
@@ -122,7 +122,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 2)
     @Severity(SeverityLevel.CRITICAL)
     public void testEditPost() {
         boolean result = false;
@@ -141,7 +141,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 3)
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewComment() {
         boolean result = false;
@@ -161,7 +161,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 4)
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteComment() {
         boolean result = false;
@@ -180,7 +180,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 5)
     @Severity(SeverityLevel.CRITICAL)
     public void testDeletePost() {
         boolean result = false;
@@ -199,7 +199,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     public void testAddNewPage() {
         boolean result = false;
@@ -218,7 +218,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 2)
     @Severity(SeverityLevel.CRITICAL)
     public void testEditPage() {
         boolean result = false;
@@ -237,7 +237,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"}, priority = 5)
     @Severity(SeverityLevel.CRITICAL)
     public void testDeletePage() {
         boolean result = false;
@@ -256,7 +256,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 4)
     @Severity(SeverityLevel.CRITICAL)
     public void testLogInToCmsWithSubscriberCredentials() {
         logger.info("Starting new test case");
@@ -268,7 +268,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @Test
+    @Test(groups = "regression", priority = 5)
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteUserWithSubscriberRole() {
         boolean result = false;
