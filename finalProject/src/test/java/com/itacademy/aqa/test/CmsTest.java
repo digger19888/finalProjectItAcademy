@@ -16,8 +16,7 @@ import java.util.List;
 import static com.itacademy.aqa.pages.PagesPage.EDIT_PAGE_TITLE;
 import static com.itacademy.aqa.pages.PagesPage.NEW_PAGE_TITLE;
 import static com.itacademy.aqa.pages.PostsPage.*;
-import static com.itacademy.aqa.pages.UsersPage.EDIT_USER_EMAIL;
-import static com.itacademy.aqa.pages.UsersPage.NEW_USER_NAME;
+import static com.itacademy.aqa.pages.UsersPage.*;
 
 public class CmsTest extends BaseTest {
     private Logger logger = Logger.getLogger(this.getClass());
@@ -262,16 +261,29 @@ public class CmsTest extends BaseTest {
     public void testLogInToCmsWithSubscriberCredentials() {
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToUsersPage();
+        String userPassword = usersPage.addUserWithSubscriberRole();
+        logInPage.logInToCmsWithSubscriberRole(NEW_SUBSCRUSER_NAME, userPassword);
+        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.SUBSCRIBER_PROFILE);
         logger.info("Test case finished");
     }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testDeleteUserWithSubscriberRole() {
+        boolean result = false;
         logger.info("Starting new test case");
         logInPage.logInToCms();
-        Assert.assertEquals(driver.getCurrentUrl(), LogInPage.CMS_URL);
+        mainPage.switchToUsersPage();
+        List<WebElement> users = usersPage.getDeleteSubscriberUsersList();
+        int itemsListLength = users.size();
+        for (int i = 0; i < itemsListLength - 1; i++) {
+            if (users.get(i).getText().contains(NEW_SUBSCRUSER_NAME)) {
+                result = true;
+                break;
+            }
+        }
+        Assert.assertFalse(result, "User with name: " + NEW_SUBSCRUSER_NAME + " exists");
         logger.info("Test case finished");
     }
 

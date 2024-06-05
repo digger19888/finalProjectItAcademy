@@ -11,13 +11,11 @@ public class MainPage extends BasePage {
     private Logger logger = Logger.getLogger(LogInPage.class);
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-post']")
     public WebElement posts;
-    @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Media')]")
-    public WebElement media;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-page']")
     public WebElement pages;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-comments']")
     public WebElement comments;
-    @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Users')]")
+    @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-users']")
     public WebElement users;
 
     public MainPage() {

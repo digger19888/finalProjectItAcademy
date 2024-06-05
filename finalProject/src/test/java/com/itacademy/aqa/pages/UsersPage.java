@@ -19,6 +19,8 @@ public class UsersPage extends BasePage {
     private static final String TABLE_EMAIL_ELEMENT = "//td[@class='email column-email']";
     public static final String NEW_USER_NAME = "FAKE USER";
     private static final String NEW_USER_EMAIL = "fakeuser@mail.ru";
+    public static final String NEW_SUBSCRUSER_NAME = "FAKE SUBSCRUSER";
+    private static final String NEW_SUBSCRUSER_EMAIL = "fakesubscruser@mail.ru";
     public static final String EDIT_USER_EMAIL = "testfakeuser@mail.ru";
     @FindBy(xpath = "//*[@class='page-title-action']")
     public WebElement addNewButton;
@@ -38,14 +40,22 @@ public class UsersPage extends BasePage {
     public WebElement userEmailField;
     @FindBy(xpath = "//a[normalize-space()='FAKE USER']")
     public WebElement userNameElement;
+    @FindBy(xpath = "//a[normalize-space()='FAKE SUBSCRUSER']")
+    public WebElement userSubscriberNameElement;
     @FindBy(xpath = "//input[@id='first_name']")
     public WebElement firstNameField;
     @FindBy(xpath = "//*[@class='username column-username has-row-actions column-primary']")
     public WebElement table;
     @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Users')]")
     public WebElement usersTab;
-    @FindBy(xpath = "//a[normalize-space()='FAKE USER']/../following-sibling::div/span[@class='delete']/a")
+    @FindBy(xpath = "//a[normalize-space()='FAKE SUBSCRUSER']/../following-sibling::div/span[@class='delete']/a")
     public WebElement deleteUserTab;
+    @FindBy(xpath = "//input[@id='pass1']")
+    public WebElement passwordField;
+    @FindBy(xpath = "//li[@id='wp-admin-bar-my-account']")
+    public WebElement profile;
+    @FindBy(xpath = "//a[@class='ab-item'][normalize-space()='Log Out']")
+    public WebElement logOutButton;
     @FindBy(xpath = "//input[@id='submit']")
     public WebElement confirmDeletionButton;
 
@@ -92,6 +102,37 @@ public class UsersPage extends BasePage {
         Allure.attachment("UsersPage", "Opening page");
         Actions action = new Actions(driver);
         action.moveToElement(userNameElement).perform();
+        deleteUserTab.click();
+        logger.error("element was not found");
+        confirmDeletionButton.click();
+        WaitUtil.waitUntilElementVisible(table,30);
+        return driver.findElements(By.xpath(TABLE_USERNAME_ELEMENT));
+    }
+
+    public String addUserWithSubscriberRole() {
+        logger.info("Opening page");
+        Allure.attachment("UsersPage", "Opening page");
+        addNewButton.click();
+        logger.error("element was not found");
+        userNameField.sendKeys(NEW_SUBSCRUSER_NAME);
+        logger.error("element was not found");
+        userEmailField.sendKeys(NEW_SUBSCRUSER_EMAIL);
+        logger.error("element was not found");
+        String password = passwordField.getAttribute("data-pw");
+        logger.error("element was not found");
+        addNewUserButton.click();
+        logger.error("element was not found");
+        WaitUtil.waitUntilElementVisible(table,30);
+        Actions action = new Actions(driver);
+        action.moveToElement(profile).perform();
+        logOutButton.click();
+        return password;
+    }
+    public List<WebElement> getDeleteSubscriberUsersList() {
+        logger.info("Opening page");
+        Allure.attachment("UsersPage", "Opening page");
+        Actions action = new Actions(driver);
+        action.moveToElement(userSubscriberNameElement).perform();
         deleteUserTab.click();
         logger.error("element was not found");
         confirmDeletionButton.click();

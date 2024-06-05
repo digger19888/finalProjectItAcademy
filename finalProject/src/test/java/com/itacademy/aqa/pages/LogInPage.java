@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogInPage extends BasePage {
     public final static String CMS_URL = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/";
+    public final static String SUBSCRIBER_PROFILE = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/profile.php";
     private Logger logger = Logger.getLogger(LogInPage.class);
 
     @FindBy(xpath = "//*[@id='user_login']")
@@ -40,5 +41,13 @@ public class LogInPage extends BasePage {
         logInButton.click();
 
     }
-
+    public void logInToCmsWithSubscriberRole(String username, String userpassword) {
+        logger.info("Opening page");
+        Allure.attachment("LogInPage", "Opening page");
+        login.sendKeys(username);
+        logger.error("element was not found");
+        password.sendKeys(userpassword);
+        logger.error("element was not found");
+        logInButton.click();
+    }
 }
