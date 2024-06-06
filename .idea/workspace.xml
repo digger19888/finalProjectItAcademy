@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add implementation add, delete user with subscriber role test">
-      <change afterPath="$PROJECT_DIR$/finalProject/src/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalProject/src/smoke.xml" afterDir="false" />
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="add suits and test priority">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/logs/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/logs/log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/UsersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +65,8 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CmsTest.testDeleteUserWithSubscriberRole">
-    <configuration name="CmsTest.testAddNewPage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CmsTest.testDeleteUser">
+    <configuration name="CmsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +76,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testAddNewPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsTest.testAddNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="testAddNewUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsTest.testDeletePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CmsTest.testDeleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testDeletePage" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsTest.testEditPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CmsTest.testEditUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
         <pattern>
@@ -129,25 +147,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testEditPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CmsTest.testLogInToCmsWithSubscriberCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="finalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testLogInToCmsWithSubscriberCredentials" />
+      <option name="METHOD_NAME" value="testEditUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CmsTest.testDeleteUser" />
+        <item itemvalue="TestNG.CmsTest.testEditUser" />
+        <item itemvalue="TestNG.CmsTest.testAddNewUser" />
+        <item itemvalue="TestNG.CmsTest" />
         <item itemvalue="TestNG.CmsTest.testDeleteUserWithSubscriberRole" />
-        <item itemvalue="TestNG.CmsTest.testLogInToCmsWithSubscriberCredentials" />
-        <item itemvalue="TestNG.CmsTest.testDeletePage" />
-        <item itemvalue="TestNG.CmsTest.testEditPage" />
-        <item itemvalue="TestNG.CmsTest.testAddNewPage" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717577562850</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add suits and test priority">
+      <created>1717598327050</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717598327050</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add suits and test priority">
+      <created>1717598340705</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717598340705</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +307,7 @@
     <MESSAGE value="add implementation delete post test" />
     <MESSAGE value="add implementation add, edit, delete page test" />
     <MESSAGE value="add implementation add, delete user with subscriber role test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation add, delete user with subscriber role test" />
+    <MESSAGE value="add suits and test priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="add suits and test priority" />
   </component>
 </project>

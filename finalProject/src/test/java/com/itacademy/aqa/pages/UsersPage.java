@@ -16,7 +16,7 @@ import java.util.List;
 public class UsersPage extends BasePage {
     private Logger logger = Logger.getLogger(LogInPage.class);
     private static final String TABLE_USERNAME_ELEMENT = "//*[@class='username column-username has-row-actions column-primary']";
-    private static final String TABLE_EMAIL_ELEMENT = "//td[@class='email column-email']";
+    private static final String TABLE_EMAIL_ELEMENT = "//*[@class='email column-email']";
     public static final String NEW_USER_NAME = "FAKE USER";
     private static final String NEW_USER_EMAIL = "fakeuser@mail.ru";
     public static final String NEW_SUBSCRUSER_NAME = "FAKE SUBSCRUSER";
@@ -46,10 +46,12 @@ public class UsersPage extends BasePage {
     public WebElement firstNameField;
     @FindBy(xpath = "//*[@class='username column-username has-row-actions column-primary']")
     public WebElement table;
-    @FindBy(xpath = "//div[@class='wp-menu-name'][contains(text(), 'Users')]")
+    @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-users']")
     public WebElement usersTab;
-    @FindBy(xpath = "//a[normalize-space()='FAKE SUBSCRUSER']/../following-sibling::div/span[@class='delete']/a")
+    @FindBy(xpath = "//a[normalize-space()='FAKE USER']/../following-sibling::div/span[@class='delete']/a")
     public WebElement deleteUserTab;
+    @FindBy(xpath = "//a[normalize-space()='FAKE SUBSCRUSER']/../following-sibling::div/span[@class='delete']/a")
+    public WebElement deleteSubscrUserTab;
     @FindBy(xpath = "//input[@id='pass1']")
     public WebElement passwordField;
     @FindBy(xpath = "//li[@id='wp-admin-bar-my-account']")
@@ -90,6 +92,7 @@ public class UsersPage extends BasePage {
         userEmailField.sendKeys(EDIT_USER_EMAIL);
         logger.error("element was not found");
         userEmailField.sendKeys(Keys.PAGE_DOWN);
+        logger.error("element was not found");
         updateUserButton.click();
         logger.error("element was not found");
         usersTab.click();
@@ -133,7 +136,7 @@ public class UsersPage extends BasePage {
         Allure.attachment("UsersPage", "Opening page");
         Actions action = new Actions(driver);
         action.moveToElement(userSubscriberNameElement).perform();
-        deleteUserTab.click();
+        deleteSubscrUserTab.click();
         logger.error("element was not found");
         confirmDeletionButton.click();
         WaitUtil.waitUntilElementVisible(table,30);

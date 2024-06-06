@@ -7,9 +7,7 @@ import io.qameta.allure.SeverityLevel;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.List;
 
@@ -27,7 +25,7 @@ public class CmsTest extends BaseTest {
     UsersPage usersPage;
     PagesPage pagesPage;
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() {
         mainPage = new MainPage();
         logInPage = new LogInPage();
