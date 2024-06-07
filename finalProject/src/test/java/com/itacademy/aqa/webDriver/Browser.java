@@ -45,10 +45,10 @@ public class Browser {
 
     public static void takeScreenShot() {
 
-        File sceenShots = new File(Configuration.getSceenShotFolder());
+        File screenShots = new File(Configuration.getScreenShotFolder());
 
-        if (!sceenShots.exists()) {
-            sceenShots.mkdirs();
+        if (!screenShots.exists()) {
+            screenShots.mkdirs();
         }
         Date date = new Date();
 
@@ -60,7 +60,7 @@ public class Browser {
         byte[] srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
 
         try {
-            Files.write(new File(Configuration.getSceenShotFolder() + fileName).toPath(), srcFile, StandardOpenOption.CREATE);
+            Files.write(new File(Configuration.getScreenShotFolder() + fileName).toPath(), srcFile, StandardOpenOption.CREATE);
         } catch (IOException ex) {
             System.out.println("Can't save a file + " + fileName);
         }

@@ -3,7 +3,6 @@ package com.itacademy.aqa.pages;
 import com.itacademy.aqa.core.BasePage;
 import com.itacademy.aqa.utils.WaitUtil;
 import io.qameta.allure.Allure;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -18,7 +17,6 @@ public class PostsPage extends BasePage {
     private static final String POSTS_TABLE_TITLE_ELEMENT = "//*[@class='row-title']";
     public static final String EDIT_POST_TITLE = "EDIT FAKE POST";
     public static final String FAKE_COMMENT = "FAKE COMMENT";
-    private Logger logger = Logger.getLogger(LogInPage.class);
     @FindBy(xpath = "//*[@class='page-title-action']")
     public WebElement addNewButton;
     @FindBy(xpath = "//button[normalize-space()='Publish']")
@@ -53,14 +51,6 @@ public class PostsPage extends BasePage {
     public WebElement trashPostButton;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-post']")
     public WebElement posts;
-    @FindBy(xpath = "//a[@class='wp-first-item current']")
-    public WebElement tabAllPosts;
-    @FindBy(xpath = "//a[@href='post-new.php']")
-    public WebElement tabAddNew;
-    @FindBy(xpath = "//a[normalize-space()='Categories']")
-    public WebElement tabCategories;
-    @FindBy(xpath = "//a[normalize-space()='Tags']")
-    public WebElement tabTags;
 
     public PostsPage() {
         PageFactory.initElements(driver, this);

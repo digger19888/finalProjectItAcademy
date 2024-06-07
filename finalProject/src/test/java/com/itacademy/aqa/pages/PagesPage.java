@@ -3,7 +3,6 @@ package com.itacademy.aqa.pages;
 import com.itacademy.aqa.core.BasePage;
 import com.itacademy.aqa.utils.WaitUtil;
 import io.qameta.allure.Allure;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,13 +15,8 @@ public class PagesPage extends BasePage {
     public static final String NEW_PAGE_TITLE = "FAKE PAGE";
     public static final String EDIT_PAGE_TITLE = "EDIT FAKE PAGE";
     private static final String PAGES_TABLE_TITLE_ELEMENT = "//*[@class='row-title']";
-
-    private static final By PAGES_TABLE_AUTHOR_ELEMENT = By.xpath("//*[@class='author column-author']");
-    private Logger logger = Logger.getLogger(LogInPage.class);
     @FindBy(xpath = "//*[@class='page-title-action']")
     public WebElement addNewButton;
-    @FindBy(xpath = "//a[@class='wp-first-item current']")
-    public WebElement tabAllPages;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-page']")
     public WebElement pages;
     @FindBy(name = "editor-canvas")
@@ -49,6 +43,7 @@ public class PagesPage extends BasePage {
     public WebElement dashboard;
     @FindBy(xpath = "//*[@class='row-title']")
     public WebElement table;
+
     public PagesPage() {
         PageFactory.initElements(driver, this);
         logger.trace("Init elements of the page");

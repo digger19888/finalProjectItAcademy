@@ -24,7 +24,7 @@ public class Configuration {
         return properties;
     }
 
-    public static String getSceenShotFolder() {
+    public static String getScreenShotFolder() {
         return getProperties().getProperty("screenShotFolder");
     }
 

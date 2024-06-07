@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class ScreenShotMaker {
     @Attachment
-    public static byte[] makeScreenSot(){
+    public static byte[] makeScreenShot() {
         try {
             FileInputStream fis = new FileInputStream("src/test/resources/screenshot.png");
             byte[] screen = new byte[(int) Files.size(Paths.get("src/test/resources/screenshot.png"))];

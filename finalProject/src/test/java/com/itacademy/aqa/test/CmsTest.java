@@ -4,10 +4,11 @@ import com.itacademy.aqa.core.BaseTest;
 import com.itacademy.aqa.pages.*;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.util.List;
 
@@ -17,7 +18,6 @@ import static com.itacademy.aqa.pages.PostsPage.*;
 import static com.itacademy.aqa.pages.UsersPage.*;
 
 public class CmsTest extends BaseTest {
-    private Logger logger = Logger.getLogger(this.getClass());
     MainPage mainPage;
     LogInPage logInPage;
     PostsPage postsPage;

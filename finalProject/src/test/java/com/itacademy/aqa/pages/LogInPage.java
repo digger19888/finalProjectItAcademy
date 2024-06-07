@@ -3,7 +3,6 @@ package com.itacademy.aqa.pages;
 import com.itacademy.aqa.configuration.Configuration;
 import com.itacademy.aqa.core.BasePage;
 import io.qameta.allure.Allure;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 public class LogInPage extends BasePage {
     public final static String CMS_URL = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/";
     public final static String SUBSCRIBER_PROFILE = "https://wordpress-test-app-for-selenium.azurewebsites.net/wp-admin/profile.php";
-    private Logger logger = Logger.getLogger(LogInPage.class);
 
     @FindBy(xpath = "//*[@id='user_login']")
     public WebElement login;
@@ -41,6 +39,7 @@ public class LogInPage extends BasePage {
         logInButton.click();
 
     }
+
     public void logInToCmsWithSubscriberRole(String username, String userpassword) {
         logger.info("Opening page");
         Allure.attachment("LogInPage", "Opening page");

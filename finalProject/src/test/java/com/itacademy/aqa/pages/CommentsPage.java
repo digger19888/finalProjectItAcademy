@@ -14,9 +14,6 @@ import java.util.List;
 
 public class CommentsPage extends BasePage {
     private static final String COMMENTS_ELEMENT = "//*[@class='comment column-comment has-row-actions column-primary']";
-    private Logger logger = Logger.getLogger(LogInPage.class);
-    @FindBy(xpath = "//*[@class='author column-author']")
-    public WebElement authorTableElement;
     @FindBy(xpath = "//*[@class='comment column-comment has-row-actions column-primary']")
     public WebElement table;
     @FindBy(xpath = "//div[@class='wp-menu-image dashicons-before dashicons-admin-comments']")
