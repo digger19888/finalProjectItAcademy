@@ -4,12 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="update tests logic">
+    <list default="true" id="2b05c79d-bcf8-4875-b90f-a27cd85864d2" name="Changes" comment="update tests (refactoring)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/attachments/b11200cfea4a193e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/test-cases/2e6e4b24f7ddfcd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/export/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/logs/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/logs/log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/regression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/test/CmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalProject/src/test/java/com/itacademy/aqa/webDriver/BrowserFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +89,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.45287356&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,7 +99,7 @@
       <recent name="C:\Users\dmitrij.koreshkov\IdeaProjects\homeworks\finalProjectItAcademy1\finalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CmsTest.testDeleteUser">
+  <component name="RunManager" selected="TestNG.CmsTest.checkLogIntoCmsWithAdminCredentials">
     <configuration name="CmsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -76,6 +111,24 @@
       <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
       <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsTest.checkLogIntoCmsWithAdminCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="finalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
+      <option name="METHOD_NAME" value="checkLogIntoCmsWithAdminCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,24 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsTest.testDeleteUserWithSubscriberRole" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="finalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itacademy.aqa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itacademy.aqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itacademy.aqa.test.CmsTest" />
-      <option name="METHOD_NAME" value="testDeleteUserWithSubscriberRole" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CmsTest.testEditUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="finalProject" />
       <extension name="coverage">
@@ -156,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CmsTest.checkLogIntoCmsWithAdminCredentials" />
         <item itemvalue="TestNG.CmsTest.testDeleteUser" />
         <item itemvalue="TestNG.CmsTest.testEditUser" />
         <item itemvalue="TestNG.CmsTest.testAddNewUser" />
         <item itemvalue="TestNG.CmsTest" />
-        <item itemvalue="TestNG.CmsTest.testDeleteUserWithSubscriberRole" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717674446932</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update tests (refactoring)">
+      <created>1717760660608</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717760660608</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +357,7 @@
     <MESSAGE value="add implementation add, delete user with subscriber role test" />
     <MESSAGE value="add suits and test priority" />
     <MESSAGE value="update tests logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tests logic" />
+    <MESSAGE value="update tests (refactoring)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tests (refactoring)" />
   </component>
 </project>

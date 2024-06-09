@@ -25,7 +25,7 @@ public class CmsTest extends BaseTest {
     UsersPage usersPage;
     PagesPage pagesPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         mainPage = new MainPage();
         logInPage = new LogInPage();
@@ -285,7 +285,7 @@ public class CmsTest extends BaseTest {
         logger.info("Test case finished");
     }
 
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void close() {
         mainPage = null;
         logInPage = null;

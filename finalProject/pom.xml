@@ -92,8 +92,8 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/smoke.xml</suiteXmlFile>
-                        <suiteXmlFile>src/${suit}</suiteXmlFile>
+<!--                        <suiteXmlFile>src/smoke.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>src/${suit}</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

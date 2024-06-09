@@ -72,7 +72,7 @@ public class BrowserFactory {
     private static ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setExperimentalOption("prefs", getPrefs());
-//        chromeOptions.addArguments("headless");
+        chromeOptions.addArguments("headless");
         return chromeOptions;
     }
 

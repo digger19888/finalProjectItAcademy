@@ -1793,3 +1793,660 @@
 2024-06-06 14:43:30 INFO  LogInPage:104 - Opening page
 2024-06-06 14:43:33 ERROR LogInPage:109 - element was not found
 2024-06-06 14:43:38 INFO  CmsTest:101 - Test case finished
+2024-06-07 14:55:52 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 14:55:56 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 14:55:56 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 14:55:56 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 14:55:56 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 14:55:56 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 14:55:56 INFO  LogInPage:41 - Starting new test case
+2024-06-07 14:55:56 INFO  LogInPage:32 - Opening page
+2024-06-07 14:55:56 ERROR LogInPage:35 - element was not found
+2024-06-07 14:55:56 ERROR LogInPage:37 - element was not found
+2024-06-07 14:56:05 INFO  LogInPage:44 - Test case finished
+2024-06-07 16:59:47 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 16:59:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 16:59:58 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 16:59:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 16:59:58 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 16:59:58 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 16:59:58 INFO  LogInPage:41 - Starting new test case
+2024-06-07 16:59:58 INFO  LogInPage:32 - Opening page
+2024-06-07 16:59:58 ERROR LogInPage:35 - element was not found
+2024-06-07 16:59:58 ERROR LogInPage:37 - element was not found
+2024-06-07 17:00:21 INFO  LogInPage:44 - Test case finished
+2024-06-07 17:00:22 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:00:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:00:29 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:00:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:00:29 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:00:29 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:00:29 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:00:29 INFO  LogInPage:32 - Opening page
+2024-06-07 17:00:29 ERROR LogInPage:35 - element was not found
+2024-06-07 17:00:29 ERROR LogInPage:37 - element was not found
+2024-06-07 17:00:37 INFO  LogInPage:46 - Opening page
+2024-06-07 17:00:44 ERROR LogInPage:49 - element was not found
+2024-06-07 17:00:44 INFO  LogInPage:53 - Opening page
+2024-06-07 17:00:58 ERROR LogInPage:59 - element was not found
+2024-06-07 17:01:07 ERROR LogInPage:64 - element was not found
+2024-06-07 17:01:07 INFO  LogInPage:216 - Test case finished
+2024-06-07 17:01:08 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:01:11 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:01:11 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:01:11 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:01:11 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:01:11 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:01:11 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:01:11 INFO  LogInPage:32 - Opening page
+2024-06-07 17:01:11 ERROR LogInPage:35 - element was not found
+2024-06-07 17:01:11 ERROR LogInPage:37 - element was not found
+2024-06-07 17:01:16 INFO  LogInPage:32 - Opening page
+2024-06-07 17:01:19 ERROR LogInPage:35 - element was not found
+2024-06-07 17:01:19 INFO  LogInPage:61 - Opening page
+2024-06-07 17:01:28 ERROR LogInPage:67 - element was not found
+2024-06-07 17:01:36 ERROR LogInPage:72 - element was not found
+2024-06-07 17:01:36 INFO  LogInPage:120 - Test case finished
+2024-06-07 17:01:37 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:01:40 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:01:40 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:01:40 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:01:40 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:01:40 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:01:40 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:01:40 INFO  LogInPage:32 - Opening page
+2024-06-07 17:01:40 ERROR LogInPage:35 - element was not found
+2024-06-07 17:01:40 ERROR LogInPage:37 - element was not found
+2024-06-07 17:01:45 INFO  LogInPage:25 - Opening page
+2024-06-07 17:01:48 ERROR LogInPage:28 - element was not found
+2024-06-07 17:01:48 INFO  LogInPage:62 - Opening page
+2024-06-07 17:01:49 ERROR LogInPage:65 - element was not found
+2024-06-07 17:01:50 ERROR LogInPage:67 - element was not found
+2024-06-07 17:01:50 ERROR LogInPage:69 - element was not found
+2024-06-07 17:01:55 ERROR LogInPage:71 - element was not found
+2024-06-07 17:01:56 INFO  LogInPage:63 - Test case finished
+2024-06-07 17:01:57 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:02:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:02:00 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:02:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:02:00 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:02:00 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:02:00 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:02:00 INFO  LogInPage:32 - Opening page
+2024-06-07 17:02:00 ERROR LogInPage:35 - element was not found
+2024-06-07 17:02:00 ERROR LogInPage:37 - element was not found
+2024-06-07 17:02:05 INFO  LogInPage:46 - Opening page
+2024-06-07 17:02:08 ERROR LogInPage:49 - element was not found
+2024-06-07 17:02:08 INFO  LogInPage:70 - Opening page
+2024-06-07 17:02:21 ERROR LogInPage:77 - element was not found
+2024-06-07 17:02:30 ERROR LogInPage:82 - element was not found
+2024-06-07 17:02:30 INFO  LogInPage:235 - Test case finished
+2024-06-07 17:02:31 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:02:34 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:02:34 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:02:34 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:02:34 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:02:34 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:02:34 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:02:34 INFO  LogInPage:32 - Opening page
+2024-06-07 17:02:34 ERROR LogInPage:35 - element was not found
+2024-06-07 17:02:34 ERROR LogInPage:37 - element was not found
+2024-06-07 17:02:39 INFO  LogInPage:32 - Opening page
+2024-06-07 17:02:42 ERROR LogInPage:35 - element was not found
+2024-06-07 17:02:42 INFO  LogInPage:78 - Opening page
+2024-06-07 17:02:49 ERROR LogInPage:85 - element was not found
+2024-06-07 17:02:56 ERROR LogInPage:90 - element was not found
+2024-06-07 17:02:56 INFO  LogInPage:139 - Test case finished
+2024-06-07 17:02:57 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:03:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:00 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:03:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:00 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:03:00 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:03:00 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:03:00 INFO  LogInPage:32 - Opening page
+2024-06-07 17:03:00 ERROR LogInPage:35 - element was not found
+2024-06-07 17:03:00 ERROR LogInPage:37 - element was not found
+2024-06-07 17:03:05 INFO  LogInPage:25 - Opening page
+2024-06-07 17:03:07 ERROR LogInPage:28 - element was not found
+2024-06-07 17:03:07 INFO  LogInPage:77 - Opening page
+2024-06-07 17:03:10 ERROR LogInPage:80 - element was not found
+2024-06-07 17:03:10 ERROR LogInPage:82 - element was not found
+2024-06-07 17:03:10 ERROR LogInPage:85 - element was not found
+2024-06-07 17:03:10 ERROR LogInPage:87 - element was not found
+2024-06-07 17:03:16 ERROR LogInPage:89 - element was not found
+2024-06-07 17:03:21 INFO  LogInPage:82 - Test case finished
+2024-06-07 17:03:22 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:03:25 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:25 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:03:25 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:25 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:03:25 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:03:25 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:03:25 INFO  LogInPage:32 - Opening page
+2024-06-07 17:03:25 ERROR LogInPage:35 - element was not found
+2024-06-07 17:03:25 ERROR LogInPage:37 - element was not found
+2024-06-07 17:03:31 INFO  LogInPage:32 - Opening page
+2024-06-07 17:03:33 ERROR LogInPage:35 - element was not found
+2024-06-07 17:03:33 INFO  LogInPage:96 - Opening page
+2024-06-07 17:03:35 ERROR LogInPage:101 - element was not found
+2024-06-07 17:03:35 ERROR LogInPage:103 - element was not found
+2024-06-07 17:03:35 ERROR LogInPage:105 - element was not found
+2024-06-07 17:03:38 ERROR LogInPage:107 - element was not found
+2024-06-07 17:03:40 ERROR LogInPage:111 - element was not found
+2024-06-07 17:03:40 INFO  LogInPage:32 - Opening page
+2024-06-07 17:03:43 INFO  LogInPage:159 - Test case finished
+2024-06-07 17:03:44 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:03:47 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:47 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:03:47 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:03:47 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:03:47 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:03:47 INFO  LogInPage:166 - Starting new test case
+2024-06-07 17:03:47 INFO  LogInPage:32 - Opening page
+2024-06-07 17:03:47 ERROR LogInPage:35 - element was not found
+2024-06-07 17:03:47 ERROR LogInPage:37 - element was not found
+2024-06-07 17:03:52 INFO  LogInPage:39 - Opening page
+2024-06-07 17:03:54 ERROR LogInPage:42 - element was not found
+2024-06-07 17:03:54 INFO  LogInPage:40 - Opening page
+2024-06-07 17:03:55 ERROR LogInPage:45 - element was not found
+2024-06-07 17:03:56 INFO  LogInPage:178 - Test case finished
+2024-06-07 17:03:57 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:04:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:00 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:04:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:00 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:04:00 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:04:00 INFO  LogInPage:260 - Starting new test case
+2024-06-07 17:04:00 INFO  LogInPage:32 - Opening page
+2024-06-07 17:04:00 ERROR LogInPage:35 - element was not found
+2024-06-07 17:04:00 ERROR LogInPage:37 - element was not found
+2024-06-07 17:04:09 INFO  LogInPage:25 - Opening page
+2024-06-07 17:04:11 ERROR LogInPage:28 - element was not found
+2024-06-07 17:04:11 INFO  LogInPage:108 - Opening page
+2024-06-07 17:04:14 ERROR LogInPage:111 - element was not found
+2024-06-07 17:04:14 ERROR LogInPage:113 - element was not found
+2024-06-07 17:04:14 ERROR LogInPage:115 - element was not found
+2024-06-07 17:04:14 ERROR LogInPage:117 - element was not found
+2024-06-07 17:04:20 ERROR LogInPage:119 - element was not found
+2024-06-07 17:04:22 INFO  LogInPage:44 - Opening page
+2024-06-07 17:04:22 ERROR LogInPage:47 - element was not found
+2024-06-07 17:04:22 ERROR LogInPage:49 - element was not found
+2024-06-07 17:04:24 INFO  LogInPage:266 - Test case finished
+2024-06-07 17:04:25 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:04:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:29 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:04:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:29 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:04:29 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:04:29 INFO  LogInPage:242 - Starting new test case
+2024-06-07 17:04:29 INFO  LogInPage:32 - Opening page
+2024-06-07 17:04:29 ERROR LogInPage:35 - element was not found
+2024-06-07 17:04:29 ERROR LogInPage:37 - element was not found
+2024-06-07 17:04:34 INFO  LogInPage:46 - Opening page
+2024-06-07 17:04:37 ERROR LogInPage:49 - element was not found
+2024-06-07 17:04:40 ERROR LogInPage:91 - element was not found
+2024-06-07 17:04:42 ERROR LogInPage:95 - element was not found
+2024-06-07 17:04:46 ERROR LogInPage:97 - element was not found
+2024-06-07 17:04:46 INFO  LogInPage:254 - Test case finished
+2024-06-07 17:04:47 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:04:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:50 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:04:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:04:50 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:04:50 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:04:50 INFO  LogInPage:185 - Starting new test case
+2024-06-07 17:04:50 INFO  LogInPage:32 - Opening page
+2024-06-07 17:04:50 ERROR LogInPage:35 - element was not found
+2024-06-07 17:04:50 ERROR LogInPage:37 - element was not found
+2024-06-07 17:04:55 INFO  LogInPage:32 - Opening page
+2024-06-07 17:04:59 ERROR LogInPage:35 - element was not found
+2024-06-07 17:05:04 ERROR LogInPage:118 - element was not found
+2024-06-07 17:05:06 ERROR LogInPage:122 - element was not found
+2024-06-07 17:05:09 ERROR LogInPage:124 - element was not found
+2024-06-07 17:05:09 INFO  LogInPage:197 - Test case finished
+2024-06-07 17:05:10 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:05:13 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:05:13 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:05:13 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:05:13 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:05:13 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:05:13 INFO  LogInPage:89 - Starting new test case
+2024-06-07 17:05:13 INFO  LogInPage:32 - Opening page
+2024-06-07 17:05:13 ERROR LogInPage:35 - element was not found
+2024-06-07 17:05:13 ERROR LogInPage:37 - element was not found
+2024-06-07 17:05:19 INFO  LogInPage:25 - Opening page
+2024-06-07 17:05:21 ERROR LogInPage:28 - element was not found
+2024-06-07 17:05:21 INFO  LogInPage:96 - Opening page
+2024-06-07 17:05:22 ERROR LogInPage:101 - element was not found
+2024-06-07 17:05:27 INFO  LogInPage:101 - Test case finished
+2024-06-07 17:05:28 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:05:31 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:05:31 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:05:31 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:05:31 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:05:31 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:05:31 INFO  LogInPage:273 - Starting new test case
+2024-06-07 17:05:31 INFO  LogInPage:32 - Opening page
+2024-06-07 17:05:31 ERROR LogInPage:35 - element was not found
+2024-06-07 17:05:31 ERROR LogInPage:37 - element was not found
+2024-06-07 17:05:36 INFO  LogInPage:25 - Opening page
+2024-06-07 17:05:38 ERROR LogInPage:28 - element was not found
+2024-06-07 17:05:38 INFO  LogInPage:128 - Opening page
+2024-06-07 17:05:41 ERROR LogInPage:133 - element was not found
+2024-06-07 17:05:48 INFO  LogInPage:285 - Test case finished
+2024-06-07 17:10:15 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:10:15 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:10:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:10:19 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:10:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:10:19 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:10:19 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:10:19 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:10:19 INFO  LogInPage:32 - Opening page
+2024-06-07 17:10:20 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:10:20 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:10:20 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:10:20 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:10:20 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:10:20 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:10:20 INFO  LogInPage:32 - Opening page
+2024-06-07 17:10:20 ERROR LogInPage:35 - element was not found
+2024-06-07 17:10:20 ERROR LogInPage:35 - element was not found
+2024-06-07 17:10:20 ERROR LogInPage:37 - element was not found
+2024-06-07 17:10:20 ERROR LogInPage:37 - element was not found
+2024-06-07 17:13:47 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:13:47 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:13:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:13:50 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:13:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:13:50 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:13:50 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:13:50 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:13:50 INFO  LogInPage:32 - Opening page
+2024-06-07 17:13:51 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:13:51 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:13:51 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:13:51 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:13:51 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:13:51 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:13:51 INFO  LogInPage:32 - Opening page
+2024-06-07 17:13:51 ERROR LogInPage:35 - element was not found
+2024-06-07 17:13:51 ERROR LogInPage:35 - element was not found
+2024-06-07 17:13:51 ERROR LogInPage:37 - element was not found
+2024-06-07 17:13:51 ERROR LogInPage:37 - element was not found
+2024-06-07 17:13:52 INFO  LogInPage:46 - Opening page
+2024-06-07 17:14:08 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:08 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:11 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:11 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:11 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:11 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:11 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:11 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:14:11 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:12 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:12 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:12 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:12 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:12 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:12 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:14:12 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:12 ERROR LogInPage:35 - element was not found
+2024-06-07 17:14:12 ERROR LogInPage:35 - element was not found
+2024-06-07 17:14:12 ERROR LogInPage:37 - element was not found
+2024-06-07 17:14:12 ERROR LogInPage:37 - element was not found
+2024-06-07 17:14:13 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:28 INFO  LogInPage:25 - Opening page
+2024-06-07 17:14:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:31 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:31 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:14:31 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:33 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:33 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:33 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:33 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:33 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:33 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:14:33 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:34 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:34 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:14:36 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:36 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:36 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:36 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:36 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:36 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:14:36 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:37 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:37 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:14:37 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:14:37 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:14:37 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:14:37 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:14:37 INFO  LogInPage:32 - Opening page
+2024-06-07 17:14:37 ERROR LogInPage:35 - element was not found
+2024-06-07 17:14:37 ERROR LogInPage:35 - element was not found
+2024-06-07 17:14:37 ERROR LogInPage:37 - element was not found
+2024-06-07 17:14:37 ERROR LogInPage:37 - element was not found
+2024-06-07 17:14:38 INFO  LogInPage:25 - Opening page
+2024-06-07 17:20:55 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:260 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:166 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:242 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:185 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:273 - Starting new test case
+2024-06-07 17:20:55 INFO  LogInPage:89 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:260 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:166 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:242 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:185 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:273 - Starting new test case
+2024-06-07 17:29:30 INFO  LogInPage:89 - Starting new test case
+2024-06-07 17:30:31 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:166 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:260 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:242 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:185 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:89 - Starting new test case
+2024-06-07 17:30:32 INFO  LogInPage:273 - Starting new test case
+2024-06-07 17:52:28 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:28 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:52:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:57 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:57 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:53:58 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:54:47 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:54:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:54:50 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:54:50 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:54:50 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:54:50 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:54:50 INFO  LogInPage:41 - Starting new test case
+2024-06-07 17:54:50 INFO  LogInPage:32 - Opening page
+2024-06-07 17:54:50 ERROR LogInPage:35 - element was not found
+2024-06-07 17:54:50 ERROR LogInPage:37 - element was not found
+2024-06-07 17:54:55 INFO  LogInPage:44 - Test case finished
+2024-06-07 17:54:56 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:55:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:55:00 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:55:00 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:55:00 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:55:00 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:55:00 INFO  LogInPage:204 - Starting new test case
+2024-06-07 17:55:00 INFO  LogInPage:32 - Opening page
+2024-06-07 17:55:00 ERROR LogInPage:35 - element was not found
+2024-06-07 17:55:00 ERROR LogInPage:37 - element was not found
+2024-06-07 17:55:06 INFO  LogInPage:46 - Opening page
+2024-06-07 17:55:09 ERROR LogInPage:49 - element was not found
+2024-06-07 17:55:09 INFO  LogInPage:53 - Opening page
+2024-06-07 17:55:19 ERROR LogInPage:59 - element was not found
+2024-06-07 17:55:26 ERROR LogInPage:64 - element was not found
+2024-06-07 17:55:26 INFO  LogInPage:216 - Test case finished
+2024-06-07 17:55:27 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:55:30 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:55:30 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:55:30 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:55:30 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:55:30 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:55:30 INFO  LogInPage:108 - Starting new test case
+2024-06-07 17:55:30 INFO  LogInPage:32 - Opening page
+2024-06-07 17:55:30 ERROR LogInPage:35 - element was not found
+2024-06-07 17:55:30 ERROR LogInPage:37 - element was not found
+2024-06-07 17:55:36 INFO  LogInPage:32 - Opening page
+2024-06-07 17:55:38 ERROR LogInPage:35 - element was not found
+2024-06-07 17:55:38 INFO  LogInPage:61 - Opening page
+2024-06-07 17:55:47 ERROR LogInPage:67 - element was not found
+2024-06-07 17:56:01 ERROR LogInPage:72 - element was not found
+2024-06-07 17:56:01 INFO  LogInPage:120 - Test case finished
+2024-06-07 17:56:02 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:56:05 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:05 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:56:05 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:05 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:56:05 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:56:05 INFO  LogInPage:51 - Starting new test case
+2024-06-07 17:56:05 INFO  LogInPage:32 - Opening page
+2024-06-07 17:56:06 ERROR LogInPage:35 - element was not found
+2024-06-07 17:56:06 ERROR LogInPage:37 - element was not found
+2024-06-07 17:56:12 INFO  LogInPage:25 - Opening page
+2024-06-07 17:56:14 ERROR LogInPage:28 - element was not found
+2024-06-07 17:56:14 INFO  LogInPage:62 - Opening page
+2024-06-07 17:56:16 ERROR LogInPage:65 - element was not found
+2024-06-07 17:56:16 ERROR LogInPage:67 - element was not found
+2024-06-07 17:56:16 ERROR LogInPage:69 - element was not found
+2024-06-07 17:56:25 ERROR LogInPage:71 - element was not found
+2024-06-07 17:56:25 INFO  LogInPage:63 - Test case finished
+2024-06-07 17:56:26 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:56:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:29 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:56:29 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:29 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:56:29 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:56:29 INFO  LogInPage:223 - Starting new test case
+2024-06-07 17:56:29 INFO  LogInPage:32 - Opening page
+2024-06-07 17:56:29 ERROR LogInPage:35 - element was not found
+2024-06-07 17:56:29 ERROR LogInPage:37 - element was not found
+2024-06-07 17:56:35 INFO  LogInPage:46 - Opening page
+2024-06-07 17:56:38 ERROR LogInPage:49 - element was not found
+2024-06-07 17:56:38 INFO  LogInPage:70 - Opening page
+2024-06-07 17:56:47 ERROR LogInPage:77 - element was not found
+2024-06-07 17:56:51 ERROR LogInPage:82 - element was not found
+2024-06-07 17:56:51 INFO  LogInPage:235 - Test case finished
+2024-06-07 17:56:52 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:56:55 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:55 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:56:55 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:56:55 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:56:55 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:56:55 INFO  LogInPage:127 - Starting new test case
+2024-06-07 17:56:55 INFO  LogInPage:32 - Opening page
+2024-06-07 17:56:55 ERROR LogInPage:35 - element was not found
+2024-06-07 17:56:55 ERROR LogInPage:37 - element was not found
+2024-06-07 17:57:03 INFO  LogInPage:32 - Opening page
+2024-06-07 17:57:06 ERROR LogInPage:35 - element was not found
+2024-06-07 17:57:06 INFO  LogInPage:78 - Opening page
+2024-06-07 17:57:17 ERROR LogInPage:85 - element was not found
+2024-06-07 17:57:26 ERROR LogInPage:90 - element was not found
+2024-06-07 17:57:27 INFO  LogInPage:139 - Test case finished
+2024-06-07 17:57:27 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:57:32 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:57:32 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:57:32 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:57:32 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:57:32 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:57:32 INFO  LogInPage:70 - Starting new test case
+2024-06-07 17:57:32 INFO  LogInPage:32 - Opening page
+2024-06-07 17:57:32 ERROR LogInPage:35 - element was not found
+2024-06-07 17:57:33 ERROR LogInPage:37 - element was not found
+2024-06-07 17:57:41 INFO  LogInPage:25 - Opening page
+2024-06-07 17:57:44 ERROR LogInPage:28 - element was not found
+2024-06-07 17:57:44 INFO  LogInPage:77 - Opening page
+2024-06-07 17:57:46 ERROR LogInPage:80 - element was not found
+2024-06-07 17:57:46 ERROR LogInPage:82 - element was not found
+2024-06-07 17:57:46 ERROR LogInPage:85 - element was not found
+2024-06-07 17:57:46 ERROR LogInPage:87 - element was not found
+2024-06-07 17:57:50 ERROR LogInPage:89 - element was not found
+2024-06-07 17:57:54 INFO  LogInPage:82 - Test case finished
+2024-06-07 17:57:55 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:57:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:57:58 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:57:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:57:58 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:57:58 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:57:58 INFO  LogInPage:146 - Starting new test case
+2024-06-07 17:57:58 INFO  LogInPage:32 - Opening page
+2024-06-07 17:57:58 ERROR LogInPage:35 - element was not found
+2024-06-07 17:57:58 ERROR LogInPage:37 - element was not found
+2024-06-07 17:58:02 INFO  LogInPage:32 - Opening page
+2024-06-07 17:58:05 ERROR LogInPage:35 - element was not found
+2024-06-07 17:58:05 INFO  LogInPage:96 - Opening page
+2024-06-07 17:58:07 ERROR LogInPage:101 - element was not found
+2024-06-07 17:58:08 ERROR LogInPage:103 - element was not found
+2024-06-07 17:58:08 ERROR LogInPage:105 - element was not found
+2024-06-07 17:58:10 ERROR LogInPage:107 - element was not found
+2024-06-07 17:58:13 ERROR LogInPage:111 - element was not found
+2024-06-07 17:58:13 INFO  LogInPage:32 - Opening page
+2024-06-07 17:58:16 INFO  LogInPage:159 - Test case finished
+2024-06-07 17:58:16 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:58:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:19 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:58:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:19 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:58:19 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:58:19 INFO  LogInPage:166 - Starting new test case
+2024-06-07 17:58:19 INFO  LogInPage:32 - Opening page
+2024-06-07 17:58:19 ERROR LogInPage:35 - element was not found
+2024-06-07 17:58:19 ERROR LogInPage:37 - element was not found
+2024-06-07 17:58:24 INFO  LogInPage:39 - Opening page
+2024-06-07 17:58:26 ERROR LogInPage:42 - element was not found
+2024-06-07 17:58:26 INFO  LogInPage:40 - Opening page
+2024-06-07 17:58:26 ERROR LogInPage:45 - element was not found
+2024-06-07 17:58:28 INFO  LogInPage:178 - Test case finished
+2024-06-07 17:58:29 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:58:32 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:32 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:58:32 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:32 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:58:32 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:58:32 INFO  LogInPage:260 - Starting new test case
+2024-06-07 17:58:32 INFO  LogInPage:32 - Opening page
+2024-06-07 17:58:32 ERROR LogInPage:35 - element was not found
+2024-06-07 17:58:32 ERROR LogInPage:37 - element was not found
+2024-06-07 17:58:37 INFO  LogInPage:25 - Opening page
+2024-06-07 17:58:39 ERROR LogInPage:28 - element was not found
+2024-06-07 17:58:39 INFO  LogInPage:108 - Opening page
+2024-06-07 17:58:41 ERROR LogInPage:111 - element was not found
+2024-06-07 17:58:41 ERROR LogInPage:113 - element was not found
+2024-06-07 17:58:41 ERROR LogInPage:115 - element was not found
+2024-06-07 17:58:41 ERROR LogInPage:117 - element was not found
+2024-06-07 17:58:48 ERROR LogInPage:119 - element was not found
+2024-06-07 17:58:50 INFO  LogInPage:44 - Opening page
+2024-06-07 17:58:50 ERROR LogInPage:47 - element was not found
+2024-06-07 17:58:50 ERROR LogInPage:49 - element was not found
+2024-06-07 17:58:54 INFO  LogInPage:266 - Test case finished
+2024-06-07 17:58:55 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:58:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:58 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:58:58 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:58:58 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:58:58 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:58:58 INFO  LogInPage:242 - Starting new test case
+2024-06-07 17:58:58 INFO  LogInPage:32 - Opening page
+2024-06-07 17:58:58 ERROR LogInPage:35 - element was not found
+2024-06-07 17:58:58 ERROR LogInPage:37 - element was not found
+2024-06-07 17:59:03 INFO  LogInPage:46 - Opening page
+2024-06-07 17:59:05 ERROR LogInPage:49 - element was not found
+2024-06-07 17:59:09 ERROR LogInPage:91 - element was not found
+2024-06-07 17:59:12 ERROR LogInPage:95 - element was not found
+2024-06-07 17:59:14 ERROR LogInPage:97 - element was not found
+2024-06-07 17:59:15 INFO  LogInPage:254 - Test case finished
+2024-06-07 17:59:15 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:59:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:59:19 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:59:19 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:59:19 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:59:19 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:59:19 INFO  LogInPage:185 - Starting new test case
+2024-06-07 17:59:19 INFO  LogInPage:32 - Opening page
+2024-06-07 17:59:19 ERROR LogInPage:35 - element was not found
+2024-06-07 17:59:19 ERROR LogInPage:37 - element was not found
+2024-06-07 17:59:25 INFO  LogInPage:32 - Opening page
+2024-06-07 17:59:30 ERROR LogInPage:35 - element was not found
+2024-06-07 17:59:34 ERROR LogInPage:118 - element was not found
+2024-06-07 17:59:37 ERROR LogInPage:122 - element was not found
+2024-06-07 17:59:40 ERROR LogInPage:124 - element was not found
+2024-06-07 17:59:40 INFO  LogInPage:197 - Test case finished
+2024-06-07 17:59:41 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 17:59:44 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:59:44 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 17:59:44 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 17:59:44 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 17:59:44 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 17:59:44 INFO  LogInPage:89 - Starting new test case
+2024-06-07 17:59:44 INFO  LogInPage:32 - Opening page
+2024-06-07 17:59:44 ERROR LogInPage:35 - element was not found
+2024-06-07 17:59:44 ERROR LogInPage:37 - element was not found
+2024-06-07 17:59:50 INFO  LogInPage:25 - Opening page
+2024-06-07 17:59:52 ERROR LogInPage:28 - element was not found
+2024-06-07 17:59:52 INFO  LogInPage:96 - Opening page
+2024-06-07 17:59:54 ERROR LogInPage:101 - element was not found
+2024-06-07 18:00:01 INFO  LogInPage:101 - Test case finished
+2024-06-07 18:00:02 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:00:05 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 18:00:05 TRACE LogInPage:57 - Init elements of the page
+2024-06-07 18:00:05 TRACE LogInPage:28 - Init elements of the page
+2024-06-07 18:00:05 TRACE LogInPage:58 - Init elements of the page
+2024-06-07 18:00:05 TRACE LogInPage:49 - Init elements of the page
+2024-06-07 18:00:05 INFO  LogInPage:273 - Starting new test case
+2024-06-07 18:00:05 INFO  LogInPage:32 - Opening page
+2024-06-07 18:00:05 ERROR LogInPage:35 - element was not found
+2024-06-07 18:00:05 ERROR LogInPage:37 - element was not found
+2024-06-07 18:00:10 INFO  LogInPage:25 - Opening page
+2024-06-07 18:00:12 ERROR LogInPage:28 - element was not found
+2024-06-07 18:00:12 INFO  LogInPage:128 - Opening page
+2024-06-07 18:00:14 ERROR LogInPage:133 - element was not found
+2024-06-07 18:00:20 INFO  LogInPage:285 - Test case finished
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
+2024-06-07 18:01:21 TRACE LogInPage:21 - Init elements of the page
